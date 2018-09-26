@@ -1,0 +1,106 @@
+.wrapper1{
+	background-image: url("../images/SLEEPLESSINMANILA_HEADER.jpg");
+	min-height:500px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.card{
+	height: 29rem;
+	width:25rem;
+	position: relative;
+	left:430px;
+	top:100px;
+}
+
+.wrapper1 img{
+	height:350px;
+	border-radius:100px;
+background-size: contain;
+}
+
+.wrapper1 p,h5{
+	text-align: center;
+
+}
+.wrapper2 p{
+	color:#4A4E69;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+
+}
+i{
+	position: relative;
+	bottom: 20px;
+	left:60px;
+}
+hr{
+	max-width: 500px;
+}
+
+.wrapper2{
+	/*background-color: red;*/
+	padding-top: 150px;
+
+}
+
+.wrapper2 h2{
+	margin-left:0px;
+	text-align: center;
+}
+.wrapper3{
+	min-height: 500px;
+}
+.wrapper3 h2{
+	text-align: center;
+}
+
+.wrapper3 img{
+	width: 100%;
+
+}
+.wrapper3 a{
+	display: block;
+	text-align: center;
+}
+
+#html{
+	height: 130px;
+	width:130px;
+	
+}
+#css{
+	width:250px;
+	height: 130px;
+	
+}
+
+#bs{
+height: 130px;
+	width:130px;
+
+}
+
+@media only screen and (max-device-width : 480px){
+
+
+.card{
+	position: relative;
+	left:280px;
+}
+
+.wrapper2 h2{
+
+}
+
+}
+
+@media only screen and (min-device-width:768px) and
+(max-device-width:1024px){
+
+.card{
+	position: relative;
+	left:259px;
+}
+
+}
